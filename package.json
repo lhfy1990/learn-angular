@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "zip": "cd ng-my-code/parser-hub && git init && git add . & git commit -m archive && rm -f ../../parser-hub.zip && git archive -o ../../parser-hub.zip master && rm -rf .git/ && cd ../..",
+    "unzip": "unzip parser-hub.zip -d ng-my-code/parser-hub"
+  }
+}
